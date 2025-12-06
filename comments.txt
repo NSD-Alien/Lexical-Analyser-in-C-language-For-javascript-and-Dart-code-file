@@ -1,0 +1,37 @@
+Comments extracted from tests/edge.js
+
+// JS Edge-Case Stress Test — 150+ lines
+// Includes: template strings, nested comments, unicode identifiers, tricky escapes,
+// regex confusion, operators, malformed code, weird whitespace, odd identifiers,
+// floating numbers, hex, octal, binary, BigInt, rare operators, etc.
+/* Nested comment test
+   /* Deep nested */
+// Unicode identifier
+// Escapes
+// Sparse array
+// Looks like a comment but isn't
+//;            // Looks like a regex
+// Numeric edge cases
+// BigInt
+// Optional chaining everywhere
+// Arrow functions with edge cases
+// Function with strange whitespace
+// Reserved words as property names
+// Escaped unicode string
+// String with impossible escapes
+// Hex inside string
+// Deceptive operators
+// a++ + b
+// a-- - b
+/**/
+// Labels
+// Try/catch edge case
+// Old SpiderMonkey syntax — invalid
+// Class edge cases
+// Unicode escapes in identifiers
+// abc
+// Automatic semicolon insertion weirdness
+// Deeply nested template strings
+// Long dummy filler to push file beyond 150 lines
+// -------- filler --------
+// -------- end filler ----
